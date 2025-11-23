@@ -57,7 +57,7 @@ Before starting the analysis, the following data integrity steps were taken:
   - Instead of dropping these rows (which would have resulted in significant revenue data loss), **missing values were imputed as "Unknown"**.
   - This ensures that total revenue calculations remain accurate and inclusive of all user activity.
 
-### 📊 Key Analyses & Insights
+### Key Analyses & Insights
 
 #### 1. User Segmentation (Day 0 Engagement)
 **Hypothesis:** Users who are more active on their first day (Install Day) are more likely to monetize.
@@ -73,7 +73,7 @@ Before starting the analysis, the following data integrity steps were taken:
 - **Platform:** The analysis compares the Total Revenue contribution of iOS vs. Android users. (See `task2_platform_pie.png` for the breakdown).
 - **Geography:** The top 10 revenue-generating countries were identified to help prioritize localization and marketing efforts. *Note: The "Unknown" category is included in the dataset to represent users with unidentified locations.*
 
-### 📈 Visualizations
+### Visualizations
 The R script generates the following plots to visualize these findings:
 1. **Revenue by Segment:** Bar chart showing average revenue per engagement group.
    <img width="914" height="878" alt="Revenue by Segment" src="https://github.com/user-attachments/assets/192523ab-12d1-458e-98df-bb364cf9f286" />
