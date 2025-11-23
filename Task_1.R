@@ -49,8 +49,8 @@ run_simulation <- function(days_limit = 30, scenario = "base") {
     base_curve <- if(variant == "A") curve_A else curve_B
     m <- metrics[[variant]]
     
-    if(is.null(m$purchase_ratio)) stop(paste("HATA: Varyant", variant, "için 'p_ratio' bulunamadı!"))
-    if(is.null(m$ad_imp))  stop(paste("HATA: Varyant", variant, "için 'ad_imp' bulunamadı!"))
+    if(is.null(m$purchase_ratio)) stop(paste("Variant Error"))
+    if(is.null(m$ad_imp))  stop(paste("Variant Error"))
     # Generate "New Source" Curve for (e)
     # Formula: A: 0.58*exp(-0.12*(x-1)), B: 0.52*exp(-0.10*(x-1))
     new_source_curve <- numeric(31)
