@@ -35,7 +35,7 @@ A cohort-based simulation engine was built in R to calculate Daily Active Users 
 
 ---
 
-### 💡 Strategic Recommendation (Question f)
+### Strategic Recommendation (Question f)
 
 **Recommendation: Prioritize the 10-Day Sale (Option 1).**
 
